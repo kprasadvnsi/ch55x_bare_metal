@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Assembly files
+*.asm
+
 # Object files
 *.o
 *.ko
@@ -11,6 +14,7 @@
 *.ilk
 *.map
 *.exp
+*.lk
 
 # Precompiled Headers
 *.gch
@@ -21,6 +25,7 @@
 *.a
 *.la
 *.lo
+*.rel
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -35,6 +40,8 @@
 *.i*86
 *.x86_64
 *.hex
+*.bin
+*.ihx
 
 # Debug files
 *.dSYM/
@@ -50,3 +57,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Other files
+
+*.lst
+*.mem
+*.rst
+*.sym
