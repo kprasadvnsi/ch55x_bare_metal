@@ -1,6 +1,3 @@
-
-// Blink a LED connected to pin 1.6
-
 #include <stdint.h>
 #include <stdio.h>
 #include <ch559.h>
